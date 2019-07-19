@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daftar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/body.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/footer.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/gelora.png">
+    <script src="../app.js"></script>
+</head>
+
+<body id="background-home">
+
+    <div class="container d-flex justify-content-center">
+        <div id="card-detail" class="col-sm-6 col-md-6 col-lg-6 d-inline justify-content-center mt-5">
+
+            <div class="mt-3 mb-3 text-center">
+                <img src="../images/gelora.png" width="90" height="90" class="mr-5" alt="">
+                <h1 class="mt-4">Hello, Welcome Aboard!</h1>
+                <h1>{{data.namaLengkap}}</h1>
+            </div>
+
+            <table class="d-flex justify-content-center">
+                <tbody>
+                    <tr>
+                        <td class="left-content">Nama Lengkap</td>
+                        <td>:</td>
+                        <td>{{data.namaLengkap}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Asal SMP</td>
+                        <td>:</td>
+                        <td>{{data.smp}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Nomor Hp</td>
+                        <td>:</td>
+                        <td>{{data.noHp}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Tempat Lahir</td>
+                        <td>:</td>
+                        <td>{{data.tmpLahir}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Tanggal Lahir</td>
+                        <td>:</td>
+                        <td>{{data.tglLahir}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Nama Ayah</td>
+                        <td>:</td>
+                        <td>{{data.namaAyah}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Nama Ibu</td>
+                        <td>:</td>
+                        <td>{{data.namaIbu}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Alamat Lengkap</td>
+                        <td>:</td>
+                        <td>{{data.alamat}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Pengalaman Organisasi</td>
+                        <td>:</td>
+                        <td>{{data.organisasi}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Cita-Cita</td>
+                        <td>:</td>
+                        <td>{{data.citacita}}</td>
+                    </tr>
+                    <tr>
+                        <td class="left-content">Motivasi Ikut Paskibra</td>
+                        <td>:</td>
+                        <td>{{data.motivasi}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

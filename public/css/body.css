@@ -1,0 +1,306 @@
+/* body,
+html {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(196, 196, 196, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(196, 196, 196, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(196, 196, 196, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(196, 196, 196, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(196, 196, 196, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(196, 196, 196, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#c4c4c4', GradientType=1);
+} */
+
+* {
+    text-decoration: none !important;
+    outline: none !important;
+    outline-color: none !important;
+    outline-style: none !important;
+}
+
+.main-content {
+    position: relative;
+    margin-top: 50px;
+    padding: 2em 2em;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+.label-input {
+    color: black;
+    font-weight: bold;
+}
+
+.label-input:after {
+    content: " *";
+    color: red;
+}
+
+a {
+    font-family: 'Robot', sans-serif !important;
+}
+
+#tittle {
+    color: black;
+    font-family: 'Lobster', cursive !important;
+}
+
+#btn-daftar {
+    margin-top: 20px;
+}
+
+.main {
+    background: none;
+    border: none;
+}
+
+#btn-daftar2 {
+    position: relative;
+    width: 49%;
+    float: right;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btn-back {
+    position: relative;
+    width: 49%;
+    float: left;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#btn-btn {
+    margin-top: 35px;
+}
+
+#card-detail {
+    background-color: rgb(241, 241, 241) !important;
+    border-radius: 5px !important;
+    padding: 1em 1em !important;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.left-content {
+    font-weight: bold !important;
+}
+
+.text-daftar {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 0.4em;
+    padding-left: 1em;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+#table_id {
+    position: relative;
+}
+
+#link-daftar {
+    color: white;
+    background-color: #1eb15b;
+    padding: 1em 2.7em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#link-daftar:hover {
+    color: #d3d3d3;
+    background-color: #1d9e53;
+    box-shadow: none;
+    transition: 1s;
+}
+
+#link-anggota {
+    color: white;
+    background-color: #0489e2;
+    padding: 1em 1em;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#link-anggota:hover {
+    color: #d3d3d3;
+    background-color: #0568aa;
+    box-shadow: none;
+    transition: 1s;
+}
+
+@media (max-width: 576px) {
+    #logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    #link-daftar {
+        font-size: 12px;
+        color: white;
+        background-color: #0489e2;
+        padding: 1em 1em;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@-webkit-keyframes cf4FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    17% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    92% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes cf4FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    17% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    92% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes cf4FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    17% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    92% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cf4FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    17% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    92% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#cf4a img {
+    opacity: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 1400px;
+    position: absolute;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cf4a img {
+    -webkit-animation-name: cf4FadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
+
+    -moz-animation-name: cf4FadeInOut;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 8s;
+
+    -o-animation-name: cf4FadeInOut;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 8s;
+
+    animation-name: cf4FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+#cf4a img:nth-of-type(1) {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+#cf4a img:nth-of-type(2) {
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+#cf4a img:nth-of-type(3) {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+#cf4a img:nth-of-type(4) {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
+}
